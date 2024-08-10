@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer components {
+    .btn {
+        @apply  px-4 py-2 rounded-lg font-medium inline-flex items-center  tracking-tight
+    }
+
+    .btn-primary {
+        @apply bg-black text-white 
+    }
+
+    .btn-text {
+@apply text-black bg-transparent
+    }
+
+    .ticker{
+        @apply  h-8 w-auto
+    }
+ 
+
+}
+
+.colorr {
+     background: #12c2e9; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #12c2e9, #c471ed, #f64f59);
+    background: linear-gradient(to right, #12c2e9, #c471ed, #f64f59); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
